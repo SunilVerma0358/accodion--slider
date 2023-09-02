@@ -1,0 +1,247 @@
+* {
+    margin: 0 !important;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.bg_box {
+    background-color: black;
+}
+
+.box {
+    border-radius: 10px;
+    border: 2px solid #F53838;
+    background: #FFF;
+    padding: 30px;
+}
+
+.pre1 {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #F53838 !important;
+    border-radius: 100% !important;
+}
+
+.next1 {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #F53838 !important;
+    background-color: #F53838;
+    border-radius: 100% !important;
+}
+
+.pre2 {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #F53838 !important;
+    border-radius: 100% !important;
+}
+
+.next2 {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #F53838 !important;
+    background-color: #F53838;
+    border-radius: 100% !important;
+}
+
+.slider_card {
+    border-radius: 20px;
+    background: rgba(3, 137, 255, 0.12);
+    padding: 30px;
+    height: 253px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.mw_650 {
+    max-width: 650px !important;
+}
+
+.bg_gray {
+    background-color: #fe8b8b;
+}
+
+.card_box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.leving {
+    font-size: 20px;
+}
+
+.bluedot .slick-dots li {
+    margin: 0 20px !important;
+}
+
+.bluedot .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    content: '';
+    text-align: center;
+    background-color: gray;
+}
+
+.bluedot .slick-dots li.slick-active button:before {
+    width: 55px;
+    height: 15px;
+    border-radius: 28px;
+    background: #0389FF;
+}
+
+
+/* acc */
+
+.bg-blue {
+    background-color: #0389FF !important;
+}
+
+.bg-yellow {
+    background-color: rgb(219, 192, 56) !important;
+}
+
+.bg_color {
+    background-color: aqua;
+}
+
+.accordion-body {
+    border: 2px solid transparent;
+    background-color: rgb(218, 215, 215);
+}
+
+.accordion-button {
+    background-color: rgb(202, 202, 197)!important;
+    color: white;
+    font-family: 'poppins';
+    font-size: 16px;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+.accordion-item {
+    color: #b8b8b8;
+    font-family: 'poppins';
+    font-size: 14px;
+    margin-bottom: 16px;
+    border: unset;
+    --bs-accordion-btn-focus-border-color: rgb(235, 224, 224) !important;
+    --bs-accordion-btn-focus-box-shadow: white !important;
+    --bs-accordion-active-bg: rgb(215, 209, 209) !important;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 10px;
+}
+
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: black;
+    color: white;
+}
+
+.accordion-button::after {
+    background-image: url('../image/bx_bx-chevron-down\ \(1\).png')
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../image/bx_bx-chevron-down\ \(1\).png');
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: #b8b8b8;
+}
+
+.accordion {
+    background-color: none;
+}
+
+.first .accordion-body {
+    border: 2px solid transparent;
+    background-color: #0389FF;
+}
+
+.first .accordion-button {
+    background-color: #0389FF!important;
+}
+
+
+/* accordion */
+
+.accordion_item {
+    padding: 24px 21px;
+    border-radius: 20px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+.accordionOne {
+    width: 498px;
+    border-radius: 5px;
+    padding: 16px;
+    border: 1px solid var(--border, rgba(0, 0, 0, 0.10));
+    cursor: pointer;
+    background-color: white;
+}
+
+h1 {
+    color: #808080;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.heading {
+    color: #808080;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.phara {
+    display: none;
+    color: white;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.active {
+    border: 1px solid gray;
+    background-color: aqua;
+}
+
+.active img {
+    transform: rotate(180deg);
+}
+
+.active .phara {
+    display: block;
+    color: #F53838;
+}
+
+.active .heading {
+    color: #000;
+    font-weight: 600;
+}
